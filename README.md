@@ -85,7 +85,7 @@ I improved the project by focusing on performance, responsiveness, accessibility
 
 Group 5
 
-- Jethro Moses B. Sala - Lead Developer / Editor
+- Jethro Moses B. Sala - Lead Developer / Editor / Lead Designer
 - Earlmark S. Sotello - Co-Developer
 - John Harvey E. Awil - Editor / Co-Developer
 - Vincent Gabriel Vilan - Photographer / Co-Developer
