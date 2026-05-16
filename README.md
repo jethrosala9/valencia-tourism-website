@@ -39,7 +39,8 @@ The project was improved to make the code cleaner, faster, and easier to maintai
 ```text
 Valencia-Tourism-Improved/
 ├── assets/
-│   └── images/
+│   ├── images/
+│   └── logos/
 ├── pages/
 │   ├── travel.html
 │   └── us.html
