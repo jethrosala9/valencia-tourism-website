@@ -11,6 +11,30 @@
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
+  <svg class="icon-sprite" aria-hidden="true">
+    <symbol id="icon-news" viewBox="0 0 24 24">
+      <path d="M4 5h13a2 2 0 0 1 2 2v12H6a2 2 0 0 1-2-2V5Z"/>
+      <path d="M19 9h1a1 1 0 0 1 1 1v7a2 2 0 0 1-2 2M8 9h7M8 13h7M8 17h4"/>
+    </symbol>
+    <symbol id="icon-leaf" viewBox="0 0 24 24">
+      <path d="M20.5 3.5C13 4 7.5 6.5 5.5 11c-1.6 3.5.4 7.5 4.3 7.5 6.2 0 9.7-7.3 10.7-15Z"/>
+      <path d="M4 21c2.5-5 6.5-8.5 12-11"/>
+    </symbol>
+    <symbol id="icon-location" viewBox="0 0 24 24">
+      <path d="M20 10c0 5-8 11-8 11S4 15 4 10a8 8 0 1 1 16 0Z"/>
+      <circle cx="12" cy="10" r="2.5"/>
+    </symbol>
+    <symbol id="icon-car" viewBox="0 0 24 24">
+      <path d="m5 11 1.7-4.1A3 3 0 0 1 9.5 5h5a3 3 0 0 1 2.8 1.9L19 11"/>
+      <path d="M4 11h16a2 2 0 0 1 2 2v4a1 1 0 0 1-1 1h-2v2h-2v-2H7v2H5v-2H3a1 1 0 0 1-1-1v-4a2 2 0 0 1 2-2Z"/>
+      <circle cx="6.5" cy="14.5" r="1"/>
+      <circle cx="17.5" cy="14.5" r="1"/>
+    </symbol>
+    <symbol id="icon-mountain" viewBox="0 0 24 24">
+      <path d="m3 20 6.5-11 3.2 5 2.3-3.5L21 20H3Z"/>
+      <path d="m7.7 12 1.8 1.5 1.6-1.8M16 4v2M21 9h-2M19.5 5.5 18 7"/>
+    </symbol>
+  </svg>
   <header class="site-header">
     <nav class="nav" aria-label="Main navigation">
       <a class="brand" href="index.html"><span>Visita Chada</span>Valencia</a>
@@ -39,9 +63,9 @@
     </section>
 
     <div class="quick-links" aria-label="Quick links">
-      <a href="#news">📰 News</a>
-      <a href="#about">🌿 About</a>
-      <a href="#location">📍 Location</a>
+      <a href="#news"><svg class="icon" aria-hidden="true" focusable="false"><use href="#icon-news"></use></svg><span>News</span></a>
+      <a href="#about"><svg class="icon" aria-hidden="true" focusable="false"><use href="#icon-leaf"></use></svg><span>About</span></a>
+      <a href="#location"><svg class="icon" aria-hidden="true" focusable="false"><use href="#icon-location"></use></svg><span>Location</span></a>
     </div>
 
     <section class="section" id="news" aria-labelledby="news-title">
@@ -107,9 +131,9 @@
         <div>
           <h2>Easy to visit</h2>
           <ul class="info-list">
-            <li>📍 Valencia, Negros Oriental, Philippines</li>
-            <li>🚙 Accessible from Dumaguete City</li>
-            <li>🌄 Popular for nature, food, and cool weather</li>
+            <li><svg class="icon" aria-hidden="true" focusable="false"><use href="#icon-location"></use></svg><span>Valencia, Negros Oriental, Philippines</span></li>
+            <li><svg class="icon" aria-hidden="true" focusable="false"><use href="#icon-car"></use></svg><span>Accessible from Dumaguete City</span></li>
+            <li><svg class="icon" aria-hidden="true" focusable="false"><use href="#icon-mountain"></use></svg><span>Popular for nature, food, and cool weather</span></li>
           </ul>
         </div>
         <img src="assets/images/map.webp" alt="Map showing Valencia location" loading="lazy">
