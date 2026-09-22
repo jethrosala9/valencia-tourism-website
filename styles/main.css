@@ -89,14 +89,60 @@ a { color: inherit; }
 .brand {
   text-decoration: none;
   display: inline-flex;
-  flex-direction: column;
-  line-height: 1.05;
-  font-weight: 800;
-  letter-spacing: -0.03em;
+  align-items: center;
+  gap: 7px;
   color: var(--green-900);
 }
 
-.brand span { color: var(--green-600); font-size: 0.9rem; letter-spacing: 0.08em; text-transform: uppercase; }
+.brand-mark {
+  width: 48px;
+  height: 48px;
+  flex: 0 0 48px;
+  object-fit: contain;
+}
+
+.brand-wordmark {
+  display: grid;
+  line-height: 1;
+}
+
+.brand-name {
+  color: var(--green-900);
+  font-family: "Trebuchet MS", var(--font-body);
+  font-size: 1.65rem;
+  font-weight: 900;
+  letter-spacing: -0.045em;
+}
+
+.brand-detail {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 4px;
+  color: var(--soil);
+  font-size: 0.58rem;
+  font-weight: 900;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+}
+
+.brand-banderitas {
+  display: inline-flex;
+  align-self: stretch;
+  gap: 2px;
+  padding-top: 1px;
+}
+
+.brand-banderitas i {
+  width: 5px;
+  height: 7px;
+  background: var(--gold);
+  clip-path: polygon(0 0, 100% 0, 50% 100%);
+}
+
+.brand-banderitas i:nth-child(2) { background: #a61e3c; }
+.brand-banderitas i:nth-child(3) { background: var(--green-600); }
+.brand-banderitas i:nth-child(4) { background: #f97316; }
 
 .nav-toggle {
   display: none;
